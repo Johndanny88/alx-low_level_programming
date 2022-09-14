@@ -6,7 +6,6 @@
  * Return: Always 0
  */
 
-:wq
  int main(void)
 {
 	char text[9] = "_putchar";
