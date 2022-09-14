@@ -1,2 +1,3 @@
+#include stdio.h
 
-int _putchar(char),
+int _putchar(char c)
