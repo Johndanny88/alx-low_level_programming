@@ -3,14 +3,10 @@
 
 
 /**
+ * main - Program that prints _putchar to the standardoutput
  *
- *  * main - Program that prints _putchar to the standardoutput
- *
- *   *
- *
- *    * Return: Always 0 (Success)
- *
- *     */
+ * Return: Always 0 (Success)
+ **/
 
 int main(void)
 
