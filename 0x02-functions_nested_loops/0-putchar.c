@@ -9,20 +9,13 @@
  **/
 
 int main(void)
-
 {
+	char word[9] = "_putchar";
 
-		char arr[] = {95, 112, 117, 116, 99, 104, 97, 114};
-		int a;
+	int x;
 
-		for (a = 0; a < 9; a++)
-
-		{
-			_putchar(arr[a]);
-
-		}
-
-		_putchar('\n');
-		return (0);
-
+	for (x = 0; x < 8; x++)
+		_putchar(word[x]);
+			_putchar('\n');
+			return (0);
 }
