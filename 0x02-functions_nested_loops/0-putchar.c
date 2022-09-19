@@ -1,18 +1,33 @@
-#include <unistd.h>
+#include "main.h"
+
+
 
 /**
- * main - prints _putchar
  *
- * Return: Always 0
- */
+ *  * main - Program that prints _putchar to the standardoutput
+ *
+ *   *
+ *
+ *    * Return: Always 0 (Success)
+ *
+ *     */
+
 int main(void)
+
 {
-	char text[9] = "_putchar";
 
-	int x;
+		char arr[] = {95, 112, 117, 116, 99, 104, 97, 114};
+		int a;
+		
+		for (a = 0; a < 9; a++)
 
-	for (x = 1;x < 9; x++)
-		_putchar(text[x]);
-			_putchar('\n');
-			return (0);
+		{
+			_putchar(arr[a]);
+
+		}
+
+		_putchar('\n');
+
+		return (0);
+
 }
