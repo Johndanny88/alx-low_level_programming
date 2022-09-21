@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * main - call other function
  *
@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-	printMul();
+	printmul();
 
 	return (0)
 }
