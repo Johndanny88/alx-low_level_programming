@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
- * print_sign - check for -, +, or 0 integers
- * @n: real number 
+ * print_sign - check for -, +, or 0 integers 
  *
  * return 0 if zero, 1 if > 0, -1 if <0
  */
